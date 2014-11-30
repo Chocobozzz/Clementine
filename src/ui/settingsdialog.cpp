@@ -39,6 +39,7 @@
 #include "internet/groovesharksettingspage.h"
 #include "internet/internetshowsettingspage.h"
 #include "internet/magnatunesettingspage.h"
+#include "internet/qobuzsettingspage.h"
 #include "internet/soundcloudsettingspage.h"
 #include "internet/spotifysettingspage.h"
 #include "internet/subsonicsettingspage.h"
@@ -182,6 +183,7 @@ SettingsDialog::SettingsDialog(Application* app, BackgroundStreams* streams,
   AddPage(Page_Skydrive, new SkydriveSettingsPage(this), providers);
 #endif
 
+  AddPage(Page_Qobuz, new QobuzSettingsPage(this), providers);
   AddPage(Page_SoundCloud, new SoundCloudSettingsPage(this), providers);
   AddPage(Page_Spotify, new SpotifySettingsPage(this), providers);
 

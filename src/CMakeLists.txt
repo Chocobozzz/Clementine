@@ -155,6 +155,7 @@ set(SOURCES
   globalsearch/groovesharksearchprovider.cpp
   globalsearch/icecastsearchprovider.cpp
   globalsearch/librarysearchprovider.cpp
+  globalsearch/qobuzsearchprovider.cpp
   globalsearch/savedradiosearchprovider.cpp
   globalsearch/searchprovider.cpp
   globalsearch/searchproviderstatuswidget.cpp
@@ -196,6 +197,9 @@ set(SOURCES
   internet/magnatunesettingspage.cpp
   internet/magnatuneurlhandler.cpp
   internet/oauthenticator.cpp
+  internet/qobuzservice.cpp
+  internet/qobuzsettingspage.cpp
+  internet/qobuzurlhandler.cpp
   internet/savedradio.cpp
   internet/searchboxwidget.cpp
   internet/somafmservice.cpp
@@ -468,6 +472,7 @@ set(HEADERS
   globalsearch/globalsearchsettingspage.h
   globalsearch/globalsearchview.h
   globalsearch/groovesharksearchprovider.h
+  globalsearch/qobuzsearchprovider.h
   globalsearch/searchprovider.h
   globalsearch/simplesearchprovider.h
   globalsearch/soundcloudsearchprovider.h
@@ -500,6 +505,9 @@ set(HEADERS
   internet/magnatuneservice.h
   internet/magnatunesettingspage.h
   internet/oauthenticator.h
+  internet/qobuzservice.h
+  internet/qobuzsettingspage.h
+  internet/qobuzurlhandler.h
   internet/savedradio.h
   internet/scrobbler.h
   internet/searchboxwidget.h
@@ -700,6 +708,7 @@ set(UI
   internet/internetviewcontainer.ui
   internet/magnatunedownloaddialog.ui
   internet/magnatunesettingspage.ui
+  internet/qobuzsettingspage.ui
   internet/searchboxwidget.ui
   internet/soundcloudsettingspage.ui
   internet/spotifysettingspage.ui

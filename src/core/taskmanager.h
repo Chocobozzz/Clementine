@@ -59,6 +59,7 @@ class TaskManager : public QObject {
   void IncreaseTaskProgress(int id, int progress, int max = 0);
   void SetTaskFinished(int id);
   int GetTaskProgress(int id);
+  bool ContainsTask(int id);
 
 signals:
   void TasksChanged();

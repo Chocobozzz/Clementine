@@ -29,6 +29,7 @@
 #include "magnatuneservice.h"
 #include "savedradio.h"
 #include "somafmservice.h"
+#include "qobuzservice.h"
 #include "soundcloudservice.h"
 #include "spotifyservice.h"
 #include "subsonicservice.h"
@@ -88,6 +89,7 @@ InternetModel::InternetModel(Application* app, QObject* parent)
   AddService(new SavedRadio(app, this));
   AddService(new SkyFmService(app, this));
   AddService(new SomaFMService(app, this));
+  AddService(new QobuzService(app, this));
   AddService(new SoundCloudService(app, this));
   AddService(new SpotifyService(app, this));
   AddService(new SubsonicService(app, this));

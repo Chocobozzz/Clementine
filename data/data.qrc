@@ -331,6 +331,7 @@
         <file>providers/myspace.png</file>
         <file>providers/podcast16.png</file>
         <file>providers/podcast32.png</file>
+        <file>providers/qobuz.png</file>
         <file>providers/radiogfm.png</file>
         <file>providers/rockradio.png</file>
         <file>providers/skydrive.png</file>
@@ -426,5 +427,6 @@
         <file>vk/link.png</file>
         <file>providers/seafile.png</file>
         <file>icons/32x32/internet-services.png</file>
+        <file>icons/svg/musical-note.svg</file>
     </qresource>
 </RCC>

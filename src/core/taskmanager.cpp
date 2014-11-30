@@ -117,3 +117,14 @@ int TaskManager::GetTaskProgress(int id) {
     return tasks_[id].progress;
   }
 }
+
+bool TaskManager::ContainsTask(int id) {
+  bool ret;
+
+  {
+    QMutexLocker l(&mutex_);
+    ret = tasks_.contains(id);
+  }
+
+  return ret;
+}
